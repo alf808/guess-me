@@ -1,6 +1,6 @@
 import random
 
-def guessing_game():
+def guessing_game( ):
     answer = random.randint(0, 100)
 
     while True:
@@ -20,6 +20,4 @@ def guessing_game():
             else:
                 print(f"{user_guess} is too high.")
 
-
 guessing_game()
-
